@@ -71,22 +71,70 @@
       </div>
       <br>
 
-      <div class="container-fluid order">
+      <div class="container-fluid order back">
         <div class="controls-top text-center" id="Order"> 
             <h2>Your Order.</h2>
           </div>
           <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-3">
                   <form>
-                      <label for="select" aria-placeholder="">Choose your Flavour</label>
-                      <select name="Flavour" id="flavour">
-                          <option value="BBQ pizza">BBQ PIZZA</option>
-                          <option value="Veggie Pizza">Veggie Pizza</option>
-                          <option value="Hawaian Pizza">Hawaian Pizza</option>
-                          <option value="Pepperoni Pizza">Pepperoni Pizza</option>
-                          <option value="Buffalo Pizza">Buffalo Pizza</option>
-                          <option value="Margherita Pizza">Margherita Pizza</option>
-                      </select>
+                      <div class="row1">
+                        <label for="select" aria-placeholder="">Choose your Flavour</label>
+                        <select name="Flavour" id="flavour">
+                            <option value="BBQ pizza">BBQ PIZZA</option>
+                            <option value="Veggie Pizza">Veggie Pizza</option>
+                            <option value="Hawaian Pizza">Hawaian Pizza</option>
+                            <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+                            <option value="Buffalo Pizza">Buffalo Pizza</option>
+                            <option value="Margherita Pizza">Margherita Pizza</option>
+                        </select>
+                      </div>
+                      <br>
+                      <div class="row1">
+                        <label for="select" aria-placeholder="size">Choose your Size</label>
+                        <select name="Size" id="size">
+                            <option value="small">small---ksh 850</option>
+                            <option value="medium">medium---ksh 950</option>
+                            <option value="large">large---ksh 1050</option>
+                            <option value="X-Large">X-Large---ksh 1500</option>
+                        </select>
+                      </div>
+                      <br>
+                      <div class="row1">
+                          <label for="select">Choose your Crust</label>
+                          <select name="crust" id="crust">
+                              <option value="Gluten">Gluten-free</option>
+                              <option value="crispy">Crispy</option>
+                              <option value="stuffed">Stuffed</option>
+                          </select>
+                      </div>
+                      <br>
+                      <div class="row">
+                          <label>Select Your Toppings:</label>
+                          <div class="col-sm-4">
+                              <input type="checkbox" id="mushrooms" value="mushrooms" name="mushrooms">
+                              <label for="mushrooms" class="mush">mushrooms</label>
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="checkbox" id="onions" value="onions" name="onions">
+                              <label for="onions" class="mush">Onions</label>
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="checkbox" id="bacon" value="bacon" name="bacon">
+                              <label for="bacon">bacon</label>
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="checkbox" id="peppers" value="peppers" name="peppers">
+                              <label for="peppers">Peppers</label>
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="checkbox" id="sausage" value="sausage" name="sausage">
+                              <label for="sausage">Sausage</label>
+                          </div>
+                      </div>
+                      <br><br>
+
+                    <button type="submit" class="btn btn-primary">Proceed</button>
                   </form>
               </div>
           </div>
