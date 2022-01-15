@@ -1,7 +1,5 @@
-body{
-    background-image: url(/assets/Dominos.png);
-    background-size: cover;
-}
+body{color: aliceblue; }
+
 .navbar {
     width: 100%;
     background-color: #555;
@@ -21,7 +19,7 @@ body{
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #39aa04;
   }
   
   @media screen and (max-width: 500px) {
@@ -29,3 +27,23 @@ body{
       float: none;
       display: block;
     }
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.container1{
+  background-color: white;
+  height: 100%;
+}
+h2{
+  color:black;
+}
+p{
+  color:black;
+}
+.img{
+  height: 60%;
+  width: 80%;
+  margin: 20%;
+}
