@@ -115,6 +115,10 @@ li{
 #totalbills{
   color: aliceblue;
 }
-h2{
+.heading2{
   color: aqua;
+}
+#claimer{
+  color:red;
+  background-color: rgb(0,0,0);
 }
