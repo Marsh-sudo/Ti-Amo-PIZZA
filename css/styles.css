@@ -117,8 +117,14 @@ li{
 }
 .heading2{
   color: aqua;
+  margin-right: 70%;
+  text-decoration: underline;
 }
 #claimer{
   color:red;
   background-color: rgb(0,0,0);
+}
+.deliver{
+  margin-left: 20%;
+  color: antiquewhite;
 }
